@@ -108,7 +108,7 @@ pip install -r requirements.txt
 ## 📈 Sample Output
 
 <p align="center">
-  <img src="app/static/sample_confusion_matrix.png" width="400"/>
+  <img src="C:\Users\TRAY HAROUN\workspace\PneumoScan\models\Confusion Matrix – Final Model (VGG16).png" width="400"/>
   <br><i>Confusion Matrix – Final Model (VGG16)</i>
 </p>
 
@@ -124,7 +124,6 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
 - 💼 Software Engineer & AI Enthusiast  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/your-name)  
-- 🐍 [Portfolio](https://yourportfolio.com)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/tray-haroun-4627a51b9/)  
+- 🐍 [Portfolio](https://github.com/Haroun2021/Haroun-Tray)
