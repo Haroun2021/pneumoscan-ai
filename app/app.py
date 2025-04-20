@@ -2,6 +2,8 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
+import gdown
+import os
 from PIL import Image
 
 # --- Page Configuration ---
@@ -11,11 +13,20 @@ st.set_page_config(
     layout="centered"
 )
 
-# --- Load Model ---
 @st.cache_resource
 def load_model_cached():
-    model = load_model("../models/vgg16_pneumoscan.keras")
-    return model
+    model_path = "models/vgg16_pneumoscan.keras"
+    os.makedirs("models", exist_ok=True)
+
+    if not os.path.exists(model_path):
+        with st.spinner("⏳ Downloading model from Google Drive..."):
+            gdown.download(
+                "https://drive.google.com/uc?id=1tJCjwH4elBhbEnz7DKMYmdjEPlY8Evmk",
+                model_path,
+                quiet=False
+            )
+
+    return load_model(model_path)
 
 model = load_model_cached()
 
