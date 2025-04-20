@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+api_kaggle/ 
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python logs
+*.log
+
+# Hidden system files
+.DS_Store
+
+# Model files
+*.h5
+*.keras
+
+# Streamlit cache
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
