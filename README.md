@@ -1,6 +1,7 @@
 
 # 🧠 PneumoScan – Pneumonia Detection from Chest X-rays
 
+
 > Deep Learning Project for Medical Imaging  
 > Detects pneumonia from chest X-ray images using CNNs and Transfer Learning.
 
@@ -119,6 +120,17 @@ pip install -r requirements.txt
 - Build a web app to let users upload chest X-rays
 - Live prediction from the trained model
 - Deploy via Streamlit Cloud or Render
+
+---
+AI-Powered Pneumonia Detection from Chest X-rays  
+👉 [Live Demo on Streamlit](https://pneumoscan-ai.streamlit.app)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pneumoscan-ai.streamlit.app)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)](https://python.org)
+[![Powered by TensorFlow](https://img.shields.io/badge/Powered%20by-TensorFlow-orange)](https://tensorflow.org)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+[![Model on Google Drive](https://img.shields.io/badge/Model-111MB-blue?logo=google-drive)](https://drive.google.com/file/d/1tJCjwH4elBhbEnz7DKMYmdjEPlY8Evmk/view)
 
 ---
 
