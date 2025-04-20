@@ -108,7 +108,7 @@ pip install -r requirements.txt
 ## 📈 Sample Output
 
 <p align="center">
-  <img src="C:\Users\TRAY HAROUN\workspace\PneumoScan\models\Confusion Matrix – Final Model (VGG16).png" width="400"/>
+  <img src="models\Confusion Matrix – Final Model (VGG16).png" width="400"/>
   <br><i>Confusion Matrix – Final Model (VGG16)</i>
 </p>
 
